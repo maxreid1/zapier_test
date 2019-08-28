@@ -3,7 +3,7 @@ view: send_to_slack {
   dimension: send_to_slack_dimension {
     action: {
       label: "Send to Slack Channel"
-      url: "@{zapier_test}"
+      url: "https://hooks.zapier.com/hooks/catch/2813548/o3b5vhm/"
       form_param: {
         name: "Message"
         type: textarea

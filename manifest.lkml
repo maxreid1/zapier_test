@@ -8,5 +8,5 @@ project_name: "zapier_action"
 # }
 
 constant: zapier_test {
-  value: "https://hooks.zapier.com/hooks/catch/2813548/o3b5vhm/"
+  value: ""
 }
