@@ -18,4 +18,4 @@ include: "*.view.lkml"                       # include all views in this project
 #   }
 # }
 
-explore: send_to_slack {}
+explore: data_actions {}
