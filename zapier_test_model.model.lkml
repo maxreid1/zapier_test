@@ -1,6 +1,6 @@
 connection: "thelook_events"
 
-include: "*.view.lkml"                       # include all views in this project
+include: "/views/*.lkml"                       # include all views in this project
 # include: "my_dashboard.dashboard.lookml"   # include a LookML dashboard called my_dashboard
 
 # # Select the views that should be a part of this model,
@@ -18,4 +18,18 @@ include: "*.view.lkml"                       # include all views in this project
 #   }
 # }
 
-explore: data_actions {}
+explore: order_items {
+  join: users {
+    relationship: many_to_one
+    sql_on: ${order_items.user_id} = ${users.id} ;;
+  }
+  join: products {
+    relationship: many_to_one
+    sql_on: ${inventory_items.product_id} = ${products.id} ;;
+  }
+  join: inventory_items {
+    relationship: many_to_one
+    type: full_outer
+    sql_on: ${inventory_items.id} = ${order_items.inventory_item_id} ;;
+  }
+}

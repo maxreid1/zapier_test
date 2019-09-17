@@ -36,6 +36,41 @@ view: data_actions {
     }
     sql: ${TABLE}.order_id ;;
   }
+  dimension: create_order_form {
+    action: {
+      label: "Create Order Form"
+      url: "https://hooks.zapier.com/hooks/catch/2813548/oosxkej/"
+      form_param: {
+        name: "Order ID"
+        type: textarea
+        default: "{{ order_id._value }}"
+      }
+
+      form_param: {
+        name: "Name"
+        type: textarea
+        default: "{{ users.name._value }}"
+      }
+
+      form_param: {
+        name: "Name"
+        type: textarea
+        default: "{{ users.email._value }}"
+      }
+
+      form_param: {
+        name: "Item"
+        type: textarea
+        default: "{{ products.item_name._value }}"
+      }
+
+      form_param: {
+        name: "Price"
+        type: textarea
+        default: "{{ order_items.sale_price._value }}"
+      }
+    }
+  }
 
 
 }
