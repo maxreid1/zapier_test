@@ -144,9 +144,9 @@ dimension: create_order_form {
     }
 
     form_param: {
-      name: "Name"
+      name: "Email"
       type: string
-      default: "{{ users.email._value }}"
+      default: "{{ _user_attributes.email }}"
     }
 
     form_param: {
@@ -159,6 +159,12 @@ dimension: create_order_form {
       name: "Price"
       type: string
       default: "{{ order_items.sale_price._value }}"
+    }
+
+    form_param: {
+      name: "Comments"
+      type: string
+      default: " Hi {{ users.first_name._value }}, thanks for your business!"
     }
   }
   sql: ${TABLE}.order_id  ;;
