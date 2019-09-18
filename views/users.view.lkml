@@ -60,7 +60,7 @@ view: users {
 
   dimension: name {
     type: string
-    sql: CONCAT(${first_name}, ,${last_name}) ;;
+    sql: CONCAT(${first_name} ,${last_name}) ;;
   }
 
   dimension: latitude {
