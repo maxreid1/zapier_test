@@ -133,31 +133,31 @@ dimension: create_order_form {
     url: "https://hooks.zapier.com/hooks/catch/2813548/oosxkej/"
     form_param: {
       name: "Order ID"
-      type: textarea
+      type: string
       default: "{{ value }}"
     }
 
     form_param: {
       name: "Name"
-      type: textarea
+      type: string
       default: "{{ users.name._value }}"
     }
 
     form_param: {
       name: "Name"
-      type: textarea
+      type: string
       default: "{{ users.email._value }}"
     }
 
     form_param: {
       name: "Item"
-      type: textarea
+      type: string
       default: "{{ products.name._value }}"
     }
 
     form_param: {
       name: "Price"
-      type: textarea
+      type: string
       default: "{{ order_items.sale_price._value }}"
     }
   }
