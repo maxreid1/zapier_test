@@ -134,7 +134,7 @@ dimension: create_order_form {
     form_param: {
       name: "Order ID"
       type: textarea
-      default: "{{ order_id._value }}"
+      default: "{{ value }}"
     }
 
     form_param: {
@@ -152,7 +152,7 @@ dimension: create_order_form {
     form_param: {
       name: "Item"
       type: textarea
-      default: "{{ products.item_name._value }}"
+      default: "{{ products.name._value }}"
     }
 
     form_param: {
