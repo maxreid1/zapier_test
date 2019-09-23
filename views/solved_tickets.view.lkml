@@ -8,16 +8,16 @@
     derived_table: {
       sql:
       SELECT
-        664 AS id, 'Pending' AS status, 'Syntax error at or near JOIN' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-05 09:40' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-06 10:21' AS DATE) AS updated
+        664 AS id, 'Pending' AS status, 'Syntax error at or near JOIN' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-05 09:40' AS DATE) AS requested, '-' AS priority, CAST('2019-09-06 10:21' AS DATE) AS updated
       UNION ALL
       SELECT
-        658 AS id, 'Pending' AS status, 'Percent Measure' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-05 09:39' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-16 11:20' AS DATE) AS updated
+        658 AS id, 'Pending' AS status, 'Percent Measure' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-05 09:39' AS DATE) AS requested, '-' AS priority, CAST('2019-09-16 11:20' AS DATE) AS updated
       UNION ALL
       SELECT
-        644 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-29 06:33' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-03 06:23' AS DATE) AS updated
+        644 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-29 06:33' AS DATE) AS requested, '-' AS priority, CAST('2019-09-03 06:23' AS DATE) AS updated
       UNION ALL
       SELECT
-        642 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-29 06:33' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-04 11:16' AS DATE) AS updated
+        642 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-29 06:33' AS DATE) AS requested, '-' AS priority, CAST('2019-09-04 11:16' AS DATE) AS updated
       UNION ALL
       SELECT
         690 AS id, 'Pending' AS status, 'New view not showing up in explore menu' AS subject, 'Olivia Pratt' AS requester, CAST('2019-09-10 11:50' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-11 08:09' AS DATE) AS updated
@@ -26,10 +26,10 @@
         688 AS id, 'Pending' AS status, 'Percent to Zero?' AS subject, 'Olivia Pratt' AS requester, CAST('2019-09-10 11:50' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-12 05:49' AS DATE) AS updated
       UNION ALL
       SELECT
-        686 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Olivia Pratt' AS requester, CAST('2019-09-10 11:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-10 11:51' AS DATE) AS updated
+        686 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Olivia Pratt' AS requester, CAST('2019-09-10 11:50' AS DATE) AS requested, '-' AS priority, CAST('2019-09-10 11:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        653 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Quinn Morrison' AS requester, CAST('2019-09-05 07:04' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-16 09:07' AS DATE) AS updated
+        653 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Quinn Morrison' AS requester, CAST('2019-09-05 07:04' AS DATE) AS requested, '-' AS priority, CAST('2019-09-16 09:07' AS DATE) AS updated
       UNION ALL
       SELECT
         652 AS id, 'Pending' AS status, 'Differences on a dashboard' AS subject, 'Quinn Morrison' AS requester, CAST('2019-09-05 07:04' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-16 06:16' AS DATE) AS updated
@@ -95,13 +95,13 @@
         64 AS id, 'Open' AS status, 'Filter Bug with Day of Week' AS subject, 'Xin Bao' AS requester, CAST('2019-04-18 09:23' AS DATE) AS requested, 'Low' AS priority, CAST('2019-05-07 09:35' AS DATE) AS updated
       UNION ALL
       SELECT
-        62 AS id, 'Open' AS status, 'Totals don't match the values in my table' AS subject, 'Xin Bao' AS requester, CAST('2019-04-18 09:23' AS DATE) AS requested, 'Low' AS priority, CAST('2019-05-07 09:35' AS DATE) AS updated
+        62 AS id, 'Open' AS status, 'Totals dont match the values in my table' AS subject, 'Xin Bao' AS requester, CAST('2019-04-18 09:23' AS DATE) AS requested, 'Low' AS priority, CAST('2019-05-07 09:35' AS DATE) AS updated
       UNION ALL
       SELECT
-        695 AS id, 'Open' AS status, 'Average Total Minutes Help' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-17 05:06' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-17 05:07' AS DATE) AS updated
+        695 AS id, 'Open' AS status, 'Average Total Minutes Help' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-17 05:06' AS DATE) AS requested, '-' AS priority, CAST('2019-09-17 05:07' AS DATE) AS updated
       UNION ALL
       SELECT
-        679 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-09 06:21' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-09 06:22' AS DATE) AS updated
+        679 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-09 06:21' AS DATE) AS requested, '-' AS priority, CAST('2019-09-09 06:22' AS DATE) AS updated
       UNION ALL
       SELECT
         677 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Jesus Cruz' AS requester, CAST('2019-09-09 06:21' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-10 12:08' AS DATE) AS updated
@@ -125,85 +125,85 @@
         636 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-28 06:26' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-04 13:27' AS DATE) AS updated
       UNION ALL
       SELECT
-        491 AS id, 'Pending' AS status, 'Totals don't match the values in my table' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-07 11:00' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-04 08:16' AS DATE) AS updated
+        491 AS id, 'Pending' AS status, 'Totals dont match the values in my table' AS subject, 'Jesus Cruz' AS requester, CAST('2019-08-07 11:00' AS DATE) AS requested, 'Low' AS priority, CAST('2019-09-04 08:16' AS DATE) AS updated
       UNION ALL
       SELECT
-        192 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Aleksandrs Vedernikovs' AS requester, CAST('2019-05-21 03:03' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-21 09:21' AS DATE) AS updated
+        192 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Aleksandrs Vedernikovs' AS requester, CAST('2019-05-21 03:03' AS DATE) AS requested, '-' AS priority, CAST('2019-05-21 09:21' AS DATE) AS updated
       UNION ALL
       SELECT
-        191 AS id, 'Pending' AS status, 'Look Assistance' AS subject, 'Aleksandrs Vedernikovs' AS requester, CAST('2019-05-21 03:02' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-21 08:03' AS DATE) AS updated
+        191 AS id, 'Pending' AS status, 'Look Assistance' AS subject, 'Aleksandrs Vedernikovs' AS requester, CAST('2019-05-21 03:02' AS DATE) AS requested, '-' AS priority, CAST('2019-05-21 08:03' AS DATE) AS updated
       UNION ALL
       SELECT
-        205 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Sara Leon' AS requester, CAST('2019-05-23 02:10' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-23 02:11' AS DATE) AS updated
+        205 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Sara Leon' AS requester, CAST('2019-05-23 02:10' AS DATE) AS requested, '-' AS priority, CAST('2019-05-23 02:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        204 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'Sara Leon' AS requester, CAST('2019-05-23 02:10' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-23 02:12' AS DATE) AS updated
+        204 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'Sara Leon' AS requester, CAST('2019-05-23 02:10' AS DATE) AS requested, '-' AS priority, CAST('2019-05-23 02:12' AS DATE) AS updated
       UNION ALL
       SELECT
         125 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Sara Leon' AS requester, CAST('2019-04-26 11:05' AS DATE) AS requested, 'Low' AS priority, CAST('2019-05-11 02:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        469 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, ''-' AS priority, CAST('2019-07-25 14:01' AS DATE) AS updated
+        469 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, '-' AS priority, CAST('2019-07-25 14:01' AS DATE) AS updated
       UNION ALL
       SELECT
-        468 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, ''-' AS priority, CAST('2019-07-25 14:01' AS DATE) AS updated
+        468 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, '-' AS priority, CAST('2019-07-25 14:01' AS DATE) AS updated
       UNION ALL
       SELECT
-        467 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-07 16:05' AS DATE) AS updated
+        467 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Jon Allen' AS requester, CAST('2019-07-25 14:00' AS DATE) AS requested, '-' AS priority, CAST('2019-08-07 16:05' AS DATE) AS updated
       UNION ALL
       SELECT
-        444 AS id, 'Pending' AS status, 'Percent Measure' AS subject, 'Jon Allen' AS requester, CAST('2019-07-11 15:25' AS DATE) AS requested, ''-' AS priority, CAST('2019-07-12 15:17' AS DATE) AS updated
+        444 AS id, 'Pending' AS status, 'Percent Measure' AS subject, 'Jon Allen' AS requester, CAST('2019-07-11 15:25' AS DATE) AS requested, '-' AS priority, CAST('2019-07-12 15:17' AS DATE) AS updated
       UNION ALL
       SELECT
-        145 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
+        145 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, '-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        144 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
+        144 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, '-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        143 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
+        143 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, '-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        142 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, ''-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
+        142 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Jay Hester' AS requester, CAST('2019-05-06 14:08' AS DATE) AS requested, '-' AS priority, CAST('2019-05-06 14:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        674 AS id, 'Pending' AS status, 'Syntax error at or near JOIN' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-10 20:22' AS DATE) AS updated
+        674 AS id, 'Pending' AS status, 'Syntax error at or near JOIN' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-10 20:22' AS DATE) AS updated
       UNION ALL
       SELECT
-        673 AS id, 'Pending' AS status, 'New view not showing up in explore menu' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-09 18:35' AS DATE) AS updated
+        673 AS id, 'Pending' AS status, 'New view not showing up in explore menu' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-09 18:35' AS DATE) AS updated
       UNION ALL
       SELECT
-        672 AS id, 'Pending' AS status, 'SQL Error' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-10 02:24' AS DATE) AS updated
+        672 AS id, 'Pending' AS status, 'SQL Error' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-10 02:24' AS DATE) AS updated
       UNION ALL
       SELECT
-        671 AS id, 'Pending' AS status, 'Percent to Zero?' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-09 18:24' AS DATE) AS updated
+        671 AS id, 'Pending' AS status, 'Percent to Zero?' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-09 18:24' AS DATE) AS updated
       UNION ALL
       SELECT
-        670 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
+        670 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
       UNION ALL
       SELECT
-        669 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
+        669 AS id, 'Open' AS status, 'Differences on a dashboard' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
       UNION ALL
       SELECT
-        668 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
+        668 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-09-08 20:53' AS DATE) AS requested, '-' AS priority, CAST('2019-09-08 20:55' AS DATE) AS updated
       UNION ALL
       SELECT
-        628 AS id, 'Pending' AS status, 'Syntax Error' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-08 21:15' AS DATE) AS updated
+        628 AS id, 'Pending' AS status, 'Syntax Error' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, '-' AS priority, CAST('2019-09-08 21:15' AS DATE) AS updated
       UNION ALL
       SELECT
-        627 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-06 02:11' AS DATE) AS updated
+        627 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, '-' AS priority, CAST('2019-09-06 02:11' AS DATE) AS updated
       UNION ALL
       SELECT
-        626 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-09 21:24' AS DATE) AS updated
+        626 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-26 19:04' AS DATE) AS requested, '-' AS priority, CAST('2019-09-09 21:24' AS DATE) AS updated
       UNION ALL
       SELECT
-        575 AS id, 'Open' AS status, 'Totals Bug' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-26 22:50' AS DATE) AS updated
+        575 AS id, 'Open' AS status, 'Totals Bug' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, '-' AS priority, CAST('2019-08-26 22:50' AS DATE) AS updated
       UNION ALL
       SELECT
-        574 AS id, 'Open' AS status, 'Drill into a table calc' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-05 23:25' AS DATE) AS updated
+        574 AS id, 'Open' AS status, 'Drill into a table calc' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, '-' AS priority, CAST('2019-09-05 23:25' AS DATE) AS updated
       UNION ALL
       SELECT
-        573 AS id, 'Open' AS status, 'Filter Bug with Day of Week' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-26 20:31' AS DATE) AS updated
+        573 AS id, 'Open' AS status, 'Filter Bug with Day of Week' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-08-20 01:28' AS DATE) AS requested, '-' AS priority, CAST('2019-08-26 20:31' AS DATE) AS updated
       UNION ALL
       SELECT
         430 AS id, 'Pending' AS status, '[Urgent] Dashboard Help' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-07-10 10:19' AS DATE) AS requested, 'Urgent' AS priority, CAST('2019-07-20 21:14' AS DATE) AS updated
@@ -266,34 +266,34 @@
         224 AS id, 'Open' AS status, 'Filter Bug with Day of Week' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-05-30 11:41' AS DATE) AS requested, 'Low' AS priority, CAST('2019-08-13 00:58' AS DATE) AS updated
       UNION ALL
       SELECT
-        221 AS id, 'Open' AS status, 'Totals don't match the values in my table' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-05-30 11:41' AS DATE) AS requested, 'Low' AS priority, CAST('2019-08-13 00:54' AS DATE) AS updated
+        221 AS id, 'Open' AS status, 'Totals dont match the values in my table' AS subject, 'Nathaniel Thompson' AS requester, CAST('2019-05-30 11:41' AS DATE) AS requested, 'Low' AS priority, CAST('2019-08-13 00:54' AS DATE) AS updated
       UNION ALL
       SELECT
         1 AS id, 'Open' AS status, 'Sample ticket: Meet the ticket' AS subject, 'Sample customer' AS requester, CAST('2019-04-10 03:39' AS DATE) AS requested, 'Normal' AS priority, CAST('2019-04-10 03:39' AS DATE) AS updated
       UNION ALL
       SELECT
-        516 AS id, 'Pending' AS status, 'SQL Error' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-08-08 14:33' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-04 17:04' AS DATE) AS updated
+        516 AS id, 'Pending' AS status, 'SQL Error' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-08-08 14:33' AS DATE) AS requested, '-' AS priority, CAST('2019-09-04 17:04' AS DATE) AS updated
       UNION ALL
       SELECT
-        514 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-08-08 14:33' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-04 17:15' AS DATE) AS updated
+        514 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-08-08 14:33' AS DATE) AS requested, '-' AS priority, CAST('2019-09-04 17:15' AS DATE) AS updated
       UNION ALL
       SELECT
-        434 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-07-10 10:25' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-04 17:38' AS DATE) AS updated
+        434 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-07-10 10:25' AS DATE) AS requested, '-' AS priority, CAST('2019-09-04 17:38' AS DATE) AS updated
       UNION ALL
       SELECT
-        242 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Jonathan Reinhard' AS requester, CAST('2019-06-05 02:45' AS DATE) AS requested, ''-' AS priority, CAST('2019-06-05 02:46' AS DATE) AS updated
+        242 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Jonathan Reinhard' AS requester, CAST('2019-06-05 02:45' AS DATE) AS requested, '-' AS priority, CAST('2019-06-05 02:46' AS DATE) AS updated
       UNION ALL
       SELECT
-        241 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Jonathan Reinhard' AS requester, CAST('2019-06-05 02:45' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-21 22:52' AS DATE) AS updated
+        241 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Jonathan Reinhard' AS requester, CAST('2019-06-05 02:45' AS DATE) AS requested, '-' AS priority, CAST('2019-08-21 22:52' AS DATE) AS updated
       UNION ALL
       SELECT
-        78 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Chris Seymour' AS requester, CAST('2019-04-19 08:44' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-19 16:51' AS DATE) AS updated
+        78 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Chris Seymour' AS requester, CAST('2019-04-19 08:44' AS DATE) AS requested, '-' AS priority, CAST('2019-04-19 16:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        77 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Chris Seymour' AS requester, CAST('2019-04-19 08:44' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-19 17:07' AS DATE) AS updated
+        77 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Chris Seymour' AS requester, CAST('2019-04-19 08:44' AS DATE) AS requested, '-' AS priority, CAST('2019-04-19 17:07' AS DATE) AS updated
       UNION ALL
       SELECT
-        583 AS id, 'Open' AS status, '曜日の色付け' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-09 21:26' AS DATE) AS updated
+        583 AS id, 'Open' AS status, '曜日の色付け' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, '-' AS priority, CAST('2019-09-09 21:26' AS DATE) AS updated
       UNION ALL
       SELECT
         582 AS id, 'Open' AS status, '【至急】ダッシュボードの不具合' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, 'Low' AS priority, CAST('2019-08-21 19:17' AS DATE) AS updated
@@ -302,133 +302,132 @@
         580 AS id, 'Pending' AS status, 'JOIN付近のシンタックスエラー' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, 'Low' AS priority, CAST('2019-08-25 17:43' AS DATE) AS updated
       UNION ALL
       SELECT
-        579 AS id, 'Open' AS status, 'ビューがエクスプローラメニューに表示されない' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-27 19:33' AS DATE) AS updated
+        579 AS id, 'Open' AS status, 'ビューがエクスプローラメニューに表示されない' AS subject, 'Takuya Suzuki' AS requester, CAST('2019-08-20 01:49' AS DATE) AS requested, '-' AS priority, CAST('2019-08-27 19:33' AS DATE) AS updated
       UNION ALL
       SELECT
-        667 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:23' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
+        667 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:23' AS DATE) AS requested, '-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
       UNION ALL
       SELECT
-        666 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:22' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
+        666 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:22' AS DATE) AS requested, '-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
       UNION ALL
       SELECT
-        665 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:22' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
+        665 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-06 11:22' AS DATE) AS requested, '-' AS priority, CAST('2019-09-06 11:23' AS DATE) AS updated
       UNION ALL
       SELECT
-        608 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
+        608 AS id, 'Open' AS status, '[Urgent] Dashboard Help' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, '-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
       UNION ALL
       SELECT
-        607 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
+        607 AS id, 'Open' AS status, 'Look Assistance' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, '-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
       UNION ALL
       SELECT
-        606 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
+        606 AS id, 'Open' AS status, 'PDT Trigger Value' AS subject, 'David Chiaramonte' AS requester, CAST('2019-08-23 12:52' AS DATE) AS requested, '-' AS priority, CAST('2019-08-23 12:52' AS DATE) AS updated
       UNION ALL
       SELECT
-        684 AS id, 'Pending' AS status, '[Urgent] Dashboard Help' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-16 12:49' AS DATE) AS updated
+        684 AS id, 'Pending' AS status, '[Urgent] Dashboard Help' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, '-' AS priority, CAST('2019-09-16 12:49' AS DATE) AS updated
       UNION ALL
       SELECT
-        683 AS id, 'Pending' AS status, 'Look Assistance' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-16 13:19' AS DATE) AS updated
+        683 AS id, 'Pending' AS status, 'Look Assistance' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, '-' AS priority, CAST('2019-09-16 13:19' AS DATE) AS updated
       UNION ALL
       SELECT
-        682 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, ''-' AS priority, CAST('2019-09-16 14:05' AS DATE) AS updated
+        682 AS id, 'Pending' AS status, 'PDT Trigger Value' AS subject, 'Talal Naboulsi' AS requester, CAST('2019-09-09 17:23' AS DATE) AS requested, '-' AS priority, CAST('2019-09-16 14:05' AS DATE) AS updated
       UNION ALL
       SELECT
         61 AS id, 'Pending' AS status, 'Syntax error at or near JOIN' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, 'Low' AS priority, CAST('2019-05-27 08:37' AS DATE) AS updated
       UNION ALL
       SELECT
-        60 AS id, 'Open' AS status, 'New view not showing up in explore menu' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        60 AS id, 'Open' AS status, 'New view not showing up in explore menu' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        59 AS id, 'Open' AS status, 'Datediffs in LookML' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        59 AS id, 'Open' AS status, 'Datediffs in LookML' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        58 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        58 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        57 AS id, 'Open' AS status, 'Max Date' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        57 AS id, 'Open' AS status, 'Max Date' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        56 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        56 AS id, 'Open' AS status, 'Percent to Zero?' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        55 AS id, 'Open' AS status, 'Syntax Error' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        55 AS id, 'Open' AS status, 'Syntax Error' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        54 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        54 AS id, 'Open' AS status, 'Unknown or Inaccessible field' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        53 AS id, 'Open' AS status, 'Plotting Question' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        53 AS id, 'Open' AS status, 'Plotting Question' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        52 AS id, 'Open' AS status, 'Subsort in Looker?' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        52 AS id, 'Open' AS status, 'Subsort in Looker?' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        51 AS id, 'Pending' AS status, 'Differences on a dashboard' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 15:56' AS DATE) AS updated
+        51 AS id, 'Pending' AS status, 'Differences on a dashboard' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 15:56' AS DATE) AS updated
       UNION ALL
       SELECT
-        50 AS id, 'Open' AS status, 'Average Total Minutes Help' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        50 AS id, 'Open' AS status, 'Average Total Minutes Help' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        49 AS id, 'Pending' AS status, 'Changing Dates in a Visualization' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 15:09' AS DATE) AS updated
+        49 AS id, 'Pending' AS status, 'Changing Dates in a Visualization' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 15:09' AS DATE) AS updated
       UNION ALL
       SELECT
-        48 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 14:50' AS DATE) AS updated
+        48 AS id, 'Pending' AS status, 'Non-Unique Value' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 14:50' AS DATE) AS updated
       UNION ALL
       SELECT
-        47 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
+        47 AS id, 'Open' AS status, 'Percent Measure' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-17 10:51' AS DATE) AS updated
       UNION ALL
       SELECT
-        46 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 14:19' AS DATE) AS updated
+        46 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 14:19' AS DATE) AS updated
       UNION ALL
       SELECT
-        45 AS id, 'Pending' AS status, 'Totals Bug' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 14:00' AS DATE) AS updated
+        45 AS id, 'Pending' AS status, 'Totals Bug' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 14:00' AS DATE) AS updated
       UNION ALL
       SELECT
-        44 AS id, 'Pending' AS status, 'Filter Bug with Day of Week' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 12:05' AS DATE) AS updated
+        44 AS id, 'Pending' AS status, 'Filter Bug with Day of Week' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 12:05' AS DATE) AS updated
       UNION ALL
       SELECT
-        43 AS id, 'Pending' AS status, 'Choose Number Single Value Visualization' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 11:56' AS DATE) AS updated
+        43 AS id, 'Pending' AS status, 'Choose Number Single Value Visualization' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:50' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 11:56' AS DATE) AS updated
       UNION ALL
       SELECT
-        42 AS id, 'Pending' AS status, 'Totals don't match the values in my table' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:49' AS DATE) AS requested, ''-' AS priority, CAST('2019-04-24 11:41' AS DATE) AS updated
+        42 AS id, 'Pending' AS status, 'Totals dont match the values in my table' AS subject, 'Gavin Wims' AS requester, CAST('2019-04-17 10:49' AS DATE) AS requested, '-' AS priority, CAST('2019-04-24 11:41' AS DATE) AS updated
       UNION ALL
       SELECT
-        533 AS id, 'Open' AS status, 'Re: Syntax Error' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 21:39' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:42' AS DATE) AS updated
+        533 AS id, 'Open' AS status, 'Re: Syntax Error' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 21:39' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:42' AS DATE) AS updated
       UNION ALL
       SELECT
-        532 AS id, 'Open' AS status, 'Re: Percent Measure' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 21:37' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:41' AS DATE) AS updated
+        532 AS id, 'Open' AS status, 'Re: Percent Measure' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 21:37' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:41' AS DATE) AS updated
       UNION ALL
       SELECT
-        531 AS id, 'Open' AS status, 'Re: Non-Unique Value' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 20:52' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:44' AS DATE) AS updated
+        531 AS id, 'Open' AS status, 'Re: Non-Unique Value' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-08-13 20:52' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:44' AS DATE) AS updated
       UNION ALL
       SELECT
-        466 AS id, 'Open' AS status, 'Syntax error at or near JOIN' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:07' AS DATE) AS updated
+        466 AS id, 'Open' AS status, 'Syntax error at or near JOIN' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:07' AS DATE) AS updated
       UNION ALL
       SELECT
-        465 AS id, 'Open' AS status, 'New view not showing up in explore menu' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:30' AS DATE) AS updated
+        465 AS id, 'Open' AS status, 'New view not showing up in explore menu' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:30' AS DATE) AS updated
       UNION ALL
       SELECT
-        464 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-13 21:28' AS DATE) AS updated
+        464 AS id, 'Open' AS status, 'SQL Error' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-13 21:28' AS DATE) AS updated
       UNION ALL
       SELECT
-        463 AS id, 'Pending' AS status, 'Percent to Zero?' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-14 16:29' AS DATE) AS updated
+        463 AS id, 'Pending' AS status, 'Percent to Zero?' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-14 16:29' AS DATE) AS updated
       UNION ALL
       SELECT
-        462 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-20 10:41' AS DATE) AS updated
+        462 AS id, 'Pending' AS status, 'Unknown or Inaccessible field' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-20 10:41' AS DATE) AS updated
       UNION ALL
       SELECT
-        461 AS id, 'Pending' AS status, 'Max Date' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-14 15:06' AS DATE) AS updated
+        461 AS id, 'Pending' AS status, 'Max Date' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-14 15:06' AS DATE) AS updated
       UNION ALL
       SELECT
-        460 AS id, 'Pending' AS status, 'Differences on a dashboard' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-16 16:41' AS DATE) AS updated
+        460 AS id, 'Pending' AS status, 'Differences on a dashboard' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-16 16:41' AS DATE) AS updated
       UNION ALL
       SELECT
-        459 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-16 16:20' AS DATE) AS updated
+        459 AS id, 'Pending' AS status, 'Datediffs in LookML' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-16 16:20' AS DATE) AS updated
       UNION ALL
       SELECT
-        455 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, ''-' AS priority, CAST('2019-08-16 16:03' AS DATE) AS updated
+        455 AS id, 'Pending' AS status, 'Why are my measures not appearing in my explore' AS subject, 'Deepika Raghavan' AS requester, CAST('2019-07-22 20:16' AS DATE) AS requested, '-' AS priority, CAST('2019-08-16 16:03' AS DATE) AS updated
 
       ;;
-      persist_for: "10000000000 hours"
     }
 
     dimension: id {
@@ -466,6 +465,30 @@
       type: date
       datatype: date
       sql: ${TABLE}.updated ;;
+    }
+
+    dimension: update_ticket {
+      type: string
+      sql: ${id} ;;
+      action: {
+        label: "Update Zendesk Ticket"
+        url: "https://hooks.zapier.com/hooks/catch/3604151/o24uzrp/"
+        form_param: {
+          name: "Ticket ID"
+          type: string
+          default: "{{ solved_tickets.id._value }}"
+        }
+        form_param: {
+          name: "Status"
+          type: select
+          option: {
+            name: "open"
+          }
+          option: {
+            name: "holding"
+          }
+        }
+      }
     }
 
     measure: count {

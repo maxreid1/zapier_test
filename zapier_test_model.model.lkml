@@ -33,3 +33,5 @@ explore: order_items {
     sql_on: ${inventory_items.id} = ${order_items.inventory_item_id} ;;
   }
 }
+
+explore: solved_tickets {}
