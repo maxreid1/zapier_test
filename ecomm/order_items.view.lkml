@@ -63,6 +63,7 @@ view: order_items {
   dimension: sale_price {
     type: number
     sql: ${TABLE}.sale_price ;;
+    value_format_name: usd
   }
 
   dimension_group: shipped {
@@ -133,32 +134,38 @@ dimension: create_order_form {
     url: "https://hooks.zapier.com/hooks/catch/2813548/oosxkej/"
     form_param: {
       name: "Order ID"
-      type: textarea
-      default: "{{ order_id._value }}"
+      type: string
+      default: "{{ value }}"
     }
 
     form_param: {
       name: "Name"
-      type: textarea
+      type: string
       default: "{{ users.name._value }}"
     }
 
     form_param: {
-      name: "Name"
-      type: textarea
-      default: "{{ users.email._value }}"
+      name: "Email"
+      type: string
+      default: "{{ _user_attributes.email }}"
     }
 
     form_param: {
       name: "Item"
-      type: textarea
-      default: "{{ products.item_name._value }}"
+      type: string
+      default: "{{ products.name._value }}"
     }
 
     form_param: {
       name: "Price"
-      type: textarea
+      type: string
       default: "{{ order_items.sale_price._value }}"
+    }
+
+    form_param: {
+      name: "Comments"
+      type: string
+      default: " Hi {{ users.first_name._value }}, thanks for your business!"
     }
   }
   sql: ${TABLE}.order_id  ;;
