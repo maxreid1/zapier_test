@@ -35,6 +35,6 @@ explore: order_items {
 }
 
 
-explore: solved_tickets {}
+explore: open_tickets {}
 
 explore: account_and_opp {}

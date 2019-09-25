@@ -485,7 +485,33 @@
             name: "open"
           }
           option: {
+            name: "pending"
+          }
+          option: {
             name: "holding"
+          }
+          option: {
+            name: "solved"
+          }
+          option: {
+            name: "closed"
+          }
+        }
+        form_param: {
+          name: "Comment"
+          type: textarea
+        }
+        form_param: {
+          name: "Priority"
+          type: select
+          option: {
+            name: "Low"
+          }
+          option: {
+            name: "Medium"
+          }
+          option: {
+            name: "High"
           }
         }
       }
