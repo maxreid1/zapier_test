@@ -85,6 +85,12 @@ view: account_and_opp {
     }
   }
 
+  dimension: test_lead_name {
+    type: string
+    sql: CONCAT('Test Lead at ',${account_name}) ;;
+  }
+
+
   dimension: owner_role {
     type: string
     sql: ${TABLE}.owner_role ;;
