@@ -77,7 +77,9 @@ view: open_tickets {
       date,
       week,
       month,
-      year
+      year,
+      week_of_year,
+      day_of_week_index
     ]
     datatype: date
     sql: ${TABLE}.requested ;;
@@ -104,6 +106,7 @@ view: open_tickets {
         name: "Ticket ID"
         type: string
         default: "{{ open_tickets.id._value }}"
+        #change the name of the field
       }
       form_param: {
         name: "Status"
@@ -168,6 +171,57 @@ view: open_tickets {
     sql: CASE WHEN ${status} = 'Open' AND ${priority} = 'Urgent' THEN DATEDIFF(day, ${updated_date}, CURRENT_DATE)
               ELSE NULL END;;
   }
+
+  parameter: ticket_status {
+    allowed_value: {
+      value: "open"
+    }
+
+    allowed_value: {
+      value: "pending"
+    }
+    allowed_value: {
+      value: "hold"
+    }
+    allowed_value: {
+      value: "solved"
+    }
+    allowed_value: {
+      value: "closed"
+    }
+    #     required_access_grants: [can_update_tickets]
+  }
+
+  dimension: updated_ticket_status {
+    type: string
+    sql: {% parameter ticket_status %} ;;
+#     required_access_grants: [can_update_tickets]
+  }
+
+  parameter: public_comment {
+    allowed_value: {
+      value: "yes"
+    }
+    allowed_value: {
+      value: "no"
+    }
+    default_value: "no"
+  }
+
+  dimension: is_public_comment {
+    type: string
+    sql: {% parameter public_comment %} ;;
+  }
+
+  parameter: comment {
+    type: string
+  }
+
+  dimension: new_comment {
+    type: string
+    sql: {% parameter comment %} ;;
+  }
+
 
   measure: count {
     type: count

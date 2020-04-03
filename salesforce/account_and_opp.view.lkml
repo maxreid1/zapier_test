@@ -85,6 +85,7 @@ view: account_and_opp {
     }
   }
 
+
   dimension: test_lead_name {
     type: string
     sql: CONCAT('Test Lead at ',${account_name}) ;;
